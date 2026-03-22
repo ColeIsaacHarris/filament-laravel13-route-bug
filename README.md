@@ -6,3 +6,5 @@
 - Expected: Dashboard loads after login Actual: Route [filament.admin.pages.dashboard] not defined
 
 This does not occur on panels without ->domain(), because non-domain routes still use direct assignment.
+
+See Github issue: https://github.com/filamentphp/filament/issues/19549
